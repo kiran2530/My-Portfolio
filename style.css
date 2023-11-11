@@ -730,11 +730,23 @@ span {
     .contact form .input-box input {
         width: 100%;
     }
+    .footer {
+        flex-direction: column;
+    }
+    .footer-text p{
+        font-size: 1.2rem;
+    }
+    .footer-icontop {
+        margin-top: 1rem;
+    }
 }
 
 @media (max-width: 367px) {
     html {
         font-size: 50%;
+    }
+    .footer-text p{
+        font-size: 1.1rem;
     }
 }
 
